@@ -9,6 +9,7 @@ function ProjectItem({ name, about, technologies }) {
     <div className="project-item">
       <h3>{name}</h3>
       <p>{about}</p>
+      <p>Dev creator Cedric Jones</p>
       <div className="technologies">
         {newTech}
       </div>
@@ -16,4 +17,4 @@ function ProjectItem({ name, about, technologies }) {
   );
 }
 
-export default ProjectItem;
+export default ProjectItem
